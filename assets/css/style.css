@@ -1,0 +1,19 @@
+.mybox {
+    margin-left: 5px;
+    margin-top: 10px;
+    border: 2px solid gray;
+    background-color: white;
+}
+
+.aboutmetext {
+border-bottom: 4px solid gray;
+}
+
+.floatleft {
+float: left;
+}
+
+body {
+    background-color: lightgray;
+    margin: 0 auto;
+}
