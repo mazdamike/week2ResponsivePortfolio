@@ -1,9 +1,23 @@
+
 .mybox {
     margin-left: 5px;
     margin-top: 10px;
     border: 2px solid gray;
     background-color: white;
 }
+
+@media screen and (min-width: 980px) {
+
+    .mybox {
+        margin-left: 5px;
+        margin-top: 10px;
+        border: 2px solid gray;
+        background-color: white;
+        width: 66%;
+    }
+
+}
+
 
 .aboutmetext {
 border-bottom: 4px solid gray;
@@ -15,5 +29,4 @@ float: left;
 
 body {
     background-color: lightgray;
-    margin: 0 auto;
 }
