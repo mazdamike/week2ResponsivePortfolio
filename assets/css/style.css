@@ -1,21 +1,13 @@
 
+
+
+
+
 .mybox {
-    margin-left: 5px;
-    margin-top: 10px;
+    
+    margin-top: 40px;
     border: 2px solid gray;
     background-color: white;
-}
-
-@media screen and (min-width: 980px) {
-
-    .mybox {
-        margin-left: 5px;
-        margin-top: 10px;
-        border: 2px solid gray;
-        background-color: white;
-        width: 66%;
-    }
-
 }
 
 
@@ -29,4 +21,49 @@ float: left;
 
 body {
     background-color: lightgray;
+}
+
+.myfooter {
+height: 50px;
+background-color: darkgray;
+color: white;
+text-align: center;
+border-top: 4px solid turquoise;
+width: 100%;
+margin: 0 auto;
+padding-bottom: 0px;
+border-bottom: 0px;
+position: fixed;
+        left: 0;
+        bottom: 0;
+}
+
+@media screen and (min-width: 980px) {
+
+    .mybox {
+        
+        margin-top: 40px;
+        border: 2px solid gray;
+        background-color: white;
+        width: 66%;
+    }
+    #myname {
+        margin-left: 100px;
+        background-color: turquoise;
+        color: white;
+    }
+    .myfooter {
+        height: 50px;
+        background-color: darkgray;
+        color: white;
+        text-align: center;
+        border-top: 4px solid turquoise;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 0px;
+        border-bottom: 0px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        }
 }
