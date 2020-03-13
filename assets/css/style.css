@@ -1,5 +1,8 @@
 
-
+#myname {
+    background-color: turquoise;
+    color: white;
+}
 
 
 
@@ -13,6 +16,7 @@
 
 .aboutmetext {
 border-bottom: 4px solid gray;
+margin-bottom: 10px;
 }
 
 .floatleft {
@@ -21,7 +25,9 @@ float: left;
 
 body {
     background-color: lightgray;
+    padding-bottom: 50px;
 }
+
 
 .myfooter {
 height: 50px;
@@ -31,12 +37,15 @@ text-align: center;
 border-top: 4px solid turquoise;
 width: 100%;
 margin: 0 auto;
-padding-bottom: 0px;
-border-bottom: 0px;
 position: fixed;
         left: 0;
         bottom: 0;
 }
+
+
+
+
+
 
 @media screen and (min-width: 980px) {
 
@@ -60,10 +69,15 @@ position: fixed;
         border-top: 4px solid turquoise;
         width: 100%;
         margin: 0 auto;
-        padding-bottom: 0px;
-        border-bottom: 0px;
         position: fixed;
         left: 0;
         bottom: 0;
         }
+    .myboxport {
+        margin-top: 40px;
+        border: 2px solid gray;
+        background-color: white;
+       }
+
+      
 }
