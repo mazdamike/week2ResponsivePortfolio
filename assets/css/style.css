@@ -1,6 +1,7 @@
-body {
+html, body {
     background-color: lightgray;
     background-image: url("../images/cement.jpg");
+    height: 100%;
 }
 
 #myname {
@@ -33,37 +34,9 @@ body {
     border-top: 4px solid turquoise;
     width: 100%;
     position: fixed;
-    left: 0;
     bottom: 0;
 }
 
 .mybutton {
-background-color: turquoise;
-}
-
-@media screen and (min-width: 980px) {
-
-    .mybox {
-        margin-top: 40px;
-        border: 2px solid gray;
-        background-color: white;
-        width: 66%;
-    }
-    #myname {
-        margin-left: 100px;
-        background-color: turquoise;
-        color: white;
-    }
-    .myfooter {
-        height: 50px;
-        background-color: darkgray;
-        color: white;
-        text-align: center;
-        padding-top: 10px;
-        border-top: 4px solid turquoise;
-        width: 100%;
-        position: fixed;
-        left: 0;
-        bottom: 0;
-    }
+    background-color: turquoise;
 }
